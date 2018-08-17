@@ -1,0 +1,52 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+div {
+
+    box-sizing: border-box;
+}
+.header {
+    box-sizing: border-box;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.header div {
+    width: 50%;
+}
+.header div:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.container ul {
+    list-style-type: none;
+}
+.container ul li {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.hero {
+    background-image: url('http://www.samaa.tv/wp-content/uploads/print_news/2015-01-09/weddings-around-the-world-1420803418-4839.jpg');
+}
+
+.hero h2 {
+    text-align: center;
+}
